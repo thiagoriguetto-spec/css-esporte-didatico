@@ -2,6 +2,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 body{
@@ -27,4 +28,53 @@ nav li {
 nav a {
     color: rgb(244, 239, 214);
     text-decoration: none;
+}
+#modalidades{
+    background-image:url(espddt.jpg);
+ margin: 5px;
+ background-color: #66ff8a;
+ color: #66ff8a;
+}
+
+.imagem-fundo{
+    background-size: contain;
+    background-position: right;
+    min-height: 50px;
+    min-width: 20px;
+    }
+
+.card-curso{
+padding: 16px;
+border-radius: 8px;
+border-width: 2px;
+border-style: solid;
+margin-top: 15px;
+}
+
+.cursos{
+    background-color: #025a17;
+    border-color:antiquewhite;
+    color: antiquewhite;
+}
+.analise {
+    background-color: #025a17;
+    color: antiquewhite;
+}
+.analise-1{
+    background-color: rgb(124, 231, 151);
+}
+.analise-2{
+    background-color: rgb(124, 231, 151);
+}
+.analise-3{
+    background-color:rgb(124, 231, 151);
+}
+.analise-4{
+    background-color:rgb(124, 231, 151);
+}
+.analise-5{
+    background-color: rgb(124, 231, 151);
+}
+.analise-6{
+    background-color: rgb(124, 231, 151);
 }
