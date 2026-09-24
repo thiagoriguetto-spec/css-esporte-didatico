@@ -4,7 +4,7 @@
     padding:0;
     box-sizing: border-box;
 }
-;
+
 /*BASE*/
 body{
     font-family: Arial, sans-serif;
@@ -33,9 +33,9 @@ nav a {
 /* SEÇÃO ESPECÍFICA */
 #modalidades{
     background-image:url(espddt.jpg);
- margin: 5px;
- background-color: #66ff8a;
- color: #66ff8a;
+    margin: 5px;
+    background-color: #66ff8a;
+    color: #66ff8a;
 }
 /* COMPONENTES */
 .imagem-fundo{
@@ -71,3 +71,4 @@ margin-top: 15px;
 {
     background-color: rgb(124, 231, 151);
 }
+/* VALIDADO PELO W3C */
