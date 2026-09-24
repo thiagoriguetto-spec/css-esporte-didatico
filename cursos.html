@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+</head>
+<body>
+    <header>
+        <h1>ESPORTE DIDÁTICO - Cursos</h1>
+        <nav>
+            <a href="index.html">Início</a><br>
+            <a href="sobre.html">Sobre Nós</a><br>
+            <a href="cursos.html">Cursos</a><br>
+            <a href="modalidades.html">Modalidades</a><br>
+            <a href="analises.html">Análises</a><br>
+            <a href="feed.html">FEED</a><br>
+            <a href="contato.html">Contato</a><br>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Cursos Disponíveis</h2>
+            <p>
+                Acesse o PDF com o catálogo de cursos a seguir.<br>
+                <a href="esporte_didatico_cursos_v2.pdf">Baixar PDF</a>
+            </p>
+        </section>
+
+        <section>
+            <h3><strong>Cadastro e Agendamentos</strong></h3>
+            <p>Caso ficou interessado em aprender algum curso, faça seu cadastro abaixo: (agende no espaço "Data" o dia e horário que gostaria de fazer sua primeira aula.)</p>
+            
+            <form action="#" method="post">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" name="nome" id="nome" required>
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+
+                <label for="telefone">Telefone:</label>
+                <input 
+                    type="tel" 
+                    name="telefone" 
+                    id="telefone"
+                    required
+                    inputmode="numeric"
+                    maxlength="15"
+                    pattern="(?:\(?[1-9]{2}\)?\s?)?(?:9\d{4}|\d{4})-?\d{4}"
+                    title="Digite com DDD Ex:(17) 98765-4321 ou 17987654321"
+                >
+                <br>
+
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data" required>
+                <br>
+
+                <label for="hora">Horário:</label>
+                <input type="time" name="hora" id="hora" required>
+                <br>
+
+                <label for="curso">Curso Escolhido:</label>
+                <select name="curso" id="curso">
+                    <option value="">Selecione uma opção</option>
+                    <option value="futebol">Análise de Desempenho e Scouting Profissional no Futebol</option>
+                    <option value="futsal">Análise Tática e Estatística no Futsal de Alta Performance</option>
+                    <option value="basquete">Basquete Analytics: Do Shot Chart às Métricas Avançadas</option>
+                    <option value="volei">DataVolley e Scouting de Alta Performance no Vôlei</option>
+                    <option value="handebol">Scouting e Leitura Tática no Handebol</option>
+                    <option value="tenis">Análise de Padrões e Estatística no Tênis</option>
+                    <option value="atletismo">Biomecânica e Análise de Dados no Atletismo</option>
+                </select>
+                <br>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" rows="4"></textarea>
+                <br>
+
+                <button type="submit">Confirmar Agendamento</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contato: (17) 99777-4321 | contato@esportedidatico.com.br</p>
+        <p>Rua dos Jabutis, 222 - Centro, Votuporanga - SP</p>
+        <p>&copy; ESPORTE DIDÁTICO</p>
+    </footer>
+</body>
+</html>
