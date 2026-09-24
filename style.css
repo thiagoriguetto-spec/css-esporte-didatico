@@ -60,21 +60,12 @@ margin-top: 15px;
     background-color: #025a17;
     color: antiquewhite;
 }
-.analise-1{
-    background-color: rgb(124, 231, 151);
-}
-.analise-2{
-    background-color: rgb(124, 231, 151);
-}
-.analise-3{
-    background-color:rgb(124, 231, 151);
-}
-.analise-4{ 
-    background-color:rgb(124, 231, 151);
-}
-.analise-5{
-    background-color: rgb(124, 231, 151);
-}
-.analise-6{
+.analise-1,
+.analise-2,
+.analise-3,
+.analise-4,
+.analise-5,
+.analise-6
+{
     background-color: rgb(124, 231, 151);
 }
