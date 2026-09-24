@@ -3,3 +3,28 @@
     margin:0;
     padding:0;
 }
+
+body{
+    font-family: Arial, sans-serif;
+    color: #025a17;
+    line-height: 1.6;
+}
+
+header, 
+footer{
+    background-color: #025a17;
+    color: rgb(244, 239, 214);
+    padding: 20px;}
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(244,239,214);}
+
+nav li {
+    display: inline;
+}
+nav a {
+    color: rgb(244, 239, 214);
+    text-decoration: none;
+}
